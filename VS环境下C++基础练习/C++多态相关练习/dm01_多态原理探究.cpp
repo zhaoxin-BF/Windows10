@@ -56,6 +56,6 @@ int main()
 	HowToPlay(&p1);
 	HowToPlay(&c1);
 
-	system("pause");
+	//system("pause");
 	return 0;
 }
