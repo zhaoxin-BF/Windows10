@@ -1,9 +1,17 @@
-
 #include <iostream>
 using namespace std;
 
 
+int main()
+{
+    int a;
+    cin>>a;
+    cout<< a << endl;
+    return 0;
+}
 
+
+/*
 int main()
 {
 
@@ -19,4 +27,4 @@ int main()
 	cout << "报告北峰，程序运行完毕！" << endl;
 	system("pause");
 	return 0;
-}
+}*/
