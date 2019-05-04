@@ -32,6 +32,6 @@ int main()
 	base->print();
 
 	cout << "报告北峰，程序运行完毕！" << endl;
-	system("pause");
+	//system("pause");
 	return 0;
 }
