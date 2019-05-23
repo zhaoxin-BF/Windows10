@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="mypack" location="259,65" size="175,95">
+    <action name="addUserAction" location="15,23" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="success.jsp" />
+      </result>
+      <result name="input">
+        <resourceEdge source="input" routing="0" target="addUser.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="success.jsp" path="/success.jsp" location="491,250" size="150,55" />
+  <webResource name="addUser.jsp" path="/addUser.jsp" location="36,244" size="150,55" />
+</Struts2Diagram>
+
