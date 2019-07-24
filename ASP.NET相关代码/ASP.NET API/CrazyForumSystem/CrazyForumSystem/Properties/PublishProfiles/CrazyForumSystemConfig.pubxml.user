@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>H:\ASP.NET 发布\CrazyFroumSystem</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/CrazyForumSystem.dll">
+      <publishTime>07/02/2019 23:02:51</publishTime>
+    </File>
+    <File Include="bin/DAL.dll">
+      <publishTime>07/02/2019 23:02:51</publishTime>
+    </File>
+    <File Include="bin/Models.dll">
+      <publishTime>07/02/2019 23:02:51</publishTime>
+    </File>
+    <File Include="images/500.jpg">
+      <publishTime>06/30/2019 23:37:25</publishTime>
+    </File>
+    <File Include="images/home.png">
+      <publishTime>07/01/2019 15:56:22</publishTime>
+    </File>
+    <File Include="images/nmd.jpg">
+      <publishTime>07/01/2019 00:43:30</publishTime>
+    </File>
+    <File Include="Main.Master">
+      <publishTime>07/01/2019 17:39:58</publishTime>
+    </File>
+    <File Include="UserLogin.aspx">
+      <publishTime>07/01/2019 17:59:31</publishTime>
+    </File>
+    <File Include="views/HomePage.aspx">
+      <publishTime>07/01/2019 16:51:25</publishTime>
+    </File>
+    <File Include="views/UserRegister.aspx">
+      <publishTime>07/01/2019 18:01:15</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/01/2019 18:12:01</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

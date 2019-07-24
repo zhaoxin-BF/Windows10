@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script src="Scripts/jquery-1.8.2.js"></script>
+    <script>
+        //$.ajax({
+        //    url: "/api/Login/1",
+        //    type: "put",
+        //    data: {
+        //        LoginId: "zhaobabaa",
+        //        LoginName: "赵初桥",
+        //        LoginPwd: "123456",
+        //        LoginType:1
+        //    }
+        //}).done(function (data) {
+        //    console.log(data);
+        //}).fail(function () {
+        //    console.log("出错了");
+        //})
+
+        $.ajax({
+            url: "/api/Login/1",
+            type: "put",
+            data: {
+                LoginId: "zhaobabaa",
+                LoginPwd: "123456",
+            }
+        }).done(function (data) {
+            console.log(data);
+        }).fail(function () {
+            console.log("出错了");
+        })
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

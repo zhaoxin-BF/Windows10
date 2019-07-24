@@ -1,0 +1,4 @@
+C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\ASP.NET相关代码\ASP.NET API\SimpleAPI\DAL\bin\Release\DAL.dll
+C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\ASP.NET相关代码\ASP.NET API\SimpleAPI\DAL\bin\Release\DAL.pdb
+C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\ASP.NET相关代码\ASP.NET API\SimpleAPI\DAL\obj\Release\DAL.dll
+C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\ASP.NET相关代码\ASP.NET API\SimpleAPI\DAL\obj\Release\DAL.pdb

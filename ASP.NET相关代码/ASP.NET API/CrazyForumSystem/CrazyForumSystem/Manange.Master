@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Manange.master.cs" Inherits="CrazyForumSystem.Manange" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <style type="text/css">
+        .bottom
+        {
+            position:absolute;
+            right:0px;
+            bottom:0px;
+            /*background:#000000;*/
+            color:#fff;
+            display:block;
+            width:100%;
+            text-align:center;
+            z-index: 10;
+        }
+        .bottom span
+        {
+            position:relative;
+            display:block;
+            left:0;
+        }
+         .header {
+            text-align:center;
+            font-size:150%;
+            color:white;
+        }
+        .introduce {
+            text-align: center;
+            font-size: 100%;
+            width: 20%;
+            height: 500px;
+            color: black;
+            Background: white;
+        }
+        .holder{
+            float:right;
+            width:78%;
+            height:auto;
+        }
+        .auto-style1 {
+            width: 100%;
+            color:white;
+            text-decoration: none;/*去掉下划线*/
+            font-size:70%;
+        }
+        a:visited{color:white}/*未点击连接*/
+        a:hover {color:black}/*鼠标一移动上的链接*/
+        a:active{color:yellow}/* 鼠标点中激活链接*/
+
+        </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-image: url('/images/home.png');background-attachment:fixed;">
+    <form id="form1" runat="server">
+        <div style="margin:auto">
+            <div class="header">
+                <div style="width:66%;float:left">
+                    <div style="width:50%;float:left">
+                        <div style="text-align:left"><asp:Label ID="welcome" runat="server" Text="欢迎您"></asp:Label></div>
+                        
+                    </div>
+                    <div style="width:50%;float:right">
+                        Crazy Froum 疯狂论坛
+                    </div>
+                </div>
+                <div style="width:34%;float:right;">          
+                    <table class="auto-style1">
+                        <tr style="color:white;text-decoration: none;">
+                            <td><a href="TopicManage.aspx"="green";>公告管理</a></td>
+                            <td><a href="KindManage.aspx">板块管理</a></td>
+                            <td><a href="TopicManage.aspx">论点管理</a></td>
+                            <td><a href="../UserLogin.aspx?id=0">退出登录</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div>
+                &nbsp;</div>
+        <%--        疯狂论坛首页信息详解--%>
+            <div style="width:100%">
+                <div class="introduce" style="float:left">
+                    <div style="font-size:200%;">
+                            Crazy Froum<br />
+                            疯狂论坛
+                    </div>
+                    <div>
+                        <img src="/images/假笑男孩方图.jpg" style="height: 60%; width: 60%" />
+                    </div>
+                    <div style="margin-left:20px">
+                        <div style="text-align:left">
+                            疯狂论坛：
+                            <p style="font-size:25%">
+                                &nbsp; &nbsp;这是一个疯狂的论坛
+                            </p>
+                            <p style="font-size:25%">
+                                &nbsp; &nbsp;Now is a crazy dog show time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="holder">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        &nbsp;
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+
+    <div class="bottom">
+        <span > <b>@第五组-疯狂论坛小队</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>论坛解释权归五组所有  电话：13669202372  </b></span>
+    </div>
+    </form>
+</body>
+</html>

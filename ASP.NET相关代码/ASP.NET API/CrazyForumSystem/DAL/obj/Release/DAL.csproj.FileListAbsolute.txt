@@ -1,0 +1,7 @@
+C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\ASP.NET相关代码\ASP.NET API\CrazyForumSystem\DAL\bin\Release\DAL.dll
+C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\ASP.NET相关代码\ASP.NET API\CrazyForumSystem\DAL\bin\Release\DAL.pdb
+C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\ASP.NET相关代码\ASP.NET API\CrazyForumSystem\DAL\bin\Release\Models.dll
+C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\ASP.NET相关代码\ASP.NET API\CrazyForumSystem\DAL\bin\Release\Models.pdb
+C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\ASP.NET相关代码\ASP.NET API\CrazyForumSystem\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\ASP.NET相关代码\ASP.NET API\CrazyForumSystem\DAL\obj\Release\DAL.dll
+C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\ASP.NET相关代码\ASP.NET API\CrazyForumSystem\DAL\obj\Release\DAL.pdb

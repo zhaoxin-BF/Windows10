@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="CrazyForumSystem.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <style type="text/css">
+         .bottom
+        {
+            position:absolute;
+            right:0px;
+            bottom:0px;
+            /*background:#000000;*/
+            color:#fff;
+            display:block;
+            width:100%;
+            text-align:center;
+            z-index: 10;
+        }
+        .bottom span
+        {
+            position:relative;
+            display:block;
+            left:0;
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-image: url('/images/home.png');background-attachment:fixed">
+    <form id="form1" runat="server">
+
+        <div style="color:white; font-weight:800">
+            <div style="float: right">
+                <asp:Label ID="welcome" runat="server" Text="欢迎您"></asp:Label>
+            </div>
+
+        </div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+        
+            </asp:ContentPlaceHolder>
+        </div>    
+
+        <div class="bottom">
+            <span class="style4">  </span>
+            <span an class="style4">  </span>
+            <span class="style4"><b>@第五组-疯狂论坛小队</b></span><br />
+            <span class="style4"><b>论坛解释权归五组所有  电话：13669202372  </b></span> <br />
+        </div>
+    </form>
+</body>
+</html>

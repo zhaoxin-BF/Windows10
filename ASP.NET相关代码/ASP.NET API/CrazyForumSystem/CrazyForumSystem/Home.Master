@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="CrazyForumSystem.Home" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <style type="text/css">
+        .bottom
+        {
+            position:absolute;
+            right:0px;
+            bottom:0px;
+            /*background:#000000;*/
+            color:#fff;
+            display:block;
+            width:100%;
+            text-align:center;
+            z-index: 10;
+        }
+        .bottom span
+        {
+            position:relative;
+            display:block;
+            left:0;
+        }
+         .header {
+            text-align:center;
+            font-size:150%;
+            height:80%;
+            color:white;
+        }
+        .introduce {
+            text-align: center;
+            font-size: 100%;
+            width: 20%;
+            height: 550px;
+            color: black;
+            Background: white;
+        }
+        .holder{
+            float:right;
+            width:78%;
+            height:auto;
+        }
+        .style1{
+            text-align:right;
+        }
+        a:visited{color:white}/*未点击连接*/
+        a:hover {color:black}/*鼠标一移动上的链接*/
+        a:active{color:yellow}/* 鼠标点中激活链接*/
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-image: url('/images/home.png');background-attachment:fixed;">
+    <form id="form1" runat="server">
+    <div style="margin:auto">
+        <div class="header">
+            <table style="font-size:70%;width: 100%;">
+                <tr style="table-layout:fixed;width:33.33%;">
+                    <td style="float:left;">
+                        <asp:Label ID="welcome" runat="server" Text="欢迎您,游客"></asp:Label>
+                    </td>
+                    <td style="text-align:center">Crazy Froum </td>
+                    <td class="style1"><a href="../UserLogin.aspx?id=0">退出登录</a></td>
+                </tr>
+            </table>    
+        </div>
+    <%--        疯狂论坛首页信息详解--%>
+ 
+        <div >
+            <div class="introduce" style="float:left">
+                 <div style="font-size:200%;">
+                        Crazy Froum<br />
+                        疯狂论坛
+                    </div>
+                    <div>
+                        <img src="/images/假笑男孩方图.jpg" style="height: 60%; width: 60%" />
+                    </div>
+                <div style="margin-left:20px">
+                    <div style="text-align:left">
+                        疯狂论坛：
+                        <p style="font-size:25%">
+                            &nbsp; &nbsp;这是一个疯狂的论坛
+                        </p>
+                        <p style="font-size:25%">
+                            &nbsp; &nbsp;Now is a crazy dog show time.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="holder">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <img src="images/nmd.jpg" />
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <span > <b>@第五组-疯狂论坛小队</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>论坛解释权归五组所有  电话：13669202372  </b></span>
+    </div>
+    </form>
+</body>
+</html>

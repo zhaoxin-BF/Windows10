@@ -1,0 +1,6 @@
+C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\ASP.NET相关代码\练习一\练习一\bin\练习一.dll.config
+C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\ASP.NET相关代码\练习一\练习一\bin\练习一.dll
+C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\ASP.NET相关代码\练习一\练习一\bin\练习一.pdb
+C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\ASP.NET相关代码\练习一\练习一\obj\Debug\练习一.csprojResolveAssemblyReference.cache
+C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\ASP.NET相关代码\练习一\练习一\obj\Debug\练习一.dll
+C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\ASP.NET相关代码\练习一\练习一\obj\Debug\练习一.pdb
